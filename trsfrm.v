@@ -1,0 +1,37 @@
+module trsfrm (
+					rst,
+					wr,rd,DB,A,
+					dcnt,vdd,
+					indata
+					);
+
+input wire rst;	
+input wire wr,rd;
+inout wire [15:0] DB;
+input wire [2:0] A;
+input wire [15:0] indata;
+output reg [22:0] dcnt;
+output wire [15:0] vdd;
+
+reg [15:0] Ireg0,Ireg1,Ireg2;
+always @ (posedge wr,negedge rst)
+	begin
+		if (!rst)
+			begin
+				Ireg0<=16'd0;Ireg1<=16'd0;Ireg2<=16'd0;dcnt<=23'd3749;
+			end 
+		else
+			case (A[1:0])
+				2'b00:begin Ireg0<=DB;Ireg1<=Ireg1;Ireg2<=Ireg2; end 
+				2'b01:begin Ireg0<=Ireg0;Ireg1<=DB;Ireg2<=Ireg2; end 
+				2'b10:begin Ireg0<=Ireg0;Ireg1<=Ireg1;Ireg2<=DB; end 
+				2'b11:begin Ireg0<=Ireg0;Ireg1<=Ireg1;Ireg2<=Ireg2;dcnt={Ireg1[6:0],Ireg0}; end  
+			endcase 
+	end 
+
+tri_gt p1 (.OE(!rd),.id(indata),.od(DB));
+	
+assign vdd=Ireg2;	
+			
+endmodule 
+					

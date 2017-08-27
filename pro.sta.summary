@@ -1,0 +1,497 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'p0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -8.580
+TNS   : -177.880
+
+Type  : Slow 1200mV 85C Model Setup 'mod_dac:p5|dac_clk_src:m0|pck'
+Slack : -4.329
+TNS   : -4.329
+
+Type  : Slow 1200mV 85C Model Setup 'mod_dac:p4|dac_clk_src:m0|pck'
+Slack : -4.315
+TNS   : -4.315
+
+Type  : Slow 1200mV 85C Model Setup 'mod_dac:p3|dac_clk_src:m0|pck'
+Slack : -4.142
+TNS   : -4.142
+
+Type  : Slow 1200mV 85C Model Setup 'clkdiv:p1|cd'
+Slack : -1.943
+TNS   : -91.352
+
+Type  : Slow 1200mV 85C Model Setup 'p0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.325
+TNS   : -13.125
+
+Type  : Slow 1200mV 85C Model Setup 'adc_module:p7|adc_clk_div:a9|cnt[4]'
+Slack : -1.228
+TNS   : -440.758
+
+Type  : Slow 1200mV 85C Model Setup 'mod_dac:p3|dac_clk_src:m0|nck'
+Slack : -1.199
+TNS   : -4.625
+
+Type  : Slow 1200mV 85C Model Setup 'mod_dac:p5|dac_clk_src:m0|nck'
+Slack : -1.148
+TNS   : -4.386
+
+Type  : Slow 1200mV 85C Model Setup 'mod_dac:p4|dac_clk_src:m0|nck'
+Slack : -1.146
+TNS   : -4.382
+
+Type  : Slow 1200mV 85C Model Setup 'adc_module:p7|adc_driver:a1|adccs'
+Slack : -1.008
+TNS   : -3.147
+
+Type  : Slow 1200mV 85C Model Setup 'wr'
+Slack : -0.767
+TNS   : -6.321
+
+Type  : Slow 1200mV 85C Model Setup 'p0|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 95.733
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'p0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.232
+TNS   : -0.232
+
+Type  : Slow 1200mV 85C Model Hold 'p0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.209
+TNS   : -1.063
+
+Type  : Slow 1200mV 85C Model Hold 'adc_module:p7|adc_driver:a1|adccs'
+Slack : -0.026
+TNS   : -0.026
+
+Type  : Slow 1200mV 85C Model Hold 'mod_dac:p4|dac_clk_src:m0|nck'
+Slack : 0.028
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mod_dac:p3|dac_clk_src:m0|nck'
+Slack : 0.029
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mod_dac:p5|dac_clk_src:m0|nck'
+Slack : 0.043
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'adc_module:p7|adc_clk_div:a9|cnt[4]'
+Slack : 0.336
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clkdiv:p1|cd'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'p0|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'wr'
+Slack : 0.547
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mod_dac:p5|dac_clk_src:m0|pck'
+Slack : 0.855
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mod_dac:p3|dac_clk_src:m0|pck'
+Slack : 1.014
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mod_dac:p4|dac_clk_src:m0|pck'
+Slack : 1.038
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'wr'
+Slack : -3.000
+TNS   : -95.194
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'adc_module:p7|adc_clk_div:a9|cnt[4]'
+Slack : -1.487
+TNS   : -2284.032
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clkdiv:p1|cd'
+Slack : -1.487
+TNS   : -84.759
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'adc_module:p7|adc_driver:a1|adccs'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mod_dac:p3|dac_clk_src:m0|nck'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mod_dac:p4|dac_clk_src:m0|nck'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mod_dac:p5|dac_clk_src:m0|nck'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mod_dac:p3|dac_clk_src:m0|pck'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mod_dac:p4|dac_clk_src:m0|pck'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mod_dac:p5|dac_clk_src:m0|pck'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'adc_module:p7|adc_driver:a1|adcrd'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'p0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.275
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'p0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.718
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 19.934
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'p0|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 49.718
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'p0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -7.816
+TNS   : -159.213
+
+Type  : Slow 1200mV 0C Model Setup 'mod_dac:p4|dac_clk_src:m0|pck'
+Slack : -4.007
+TNS   : -4.007
+
+Type  : Slow 1200mV 0C Model Setup 'mod_dac:p5|dac_clk_src:m0|pck'
+Slack : -3.976
+TNS   : -3.976
+
+Type  : Slow 1200mV 0C Model Setup 'mod_dac:p3|dac_clk_src:m0|pck'
+Slack : -3.828
+TNS   : -3.828
+
+Type  : Slow 1200mV 0C Model Setup 'clkdiv:p1|cd'
+Slack : -1.744
+TNS   : -80.733
+
+Type  : Slow 1200mV 0C Model Setup 'adc_module:p7|adc_clk_div:a9|cnt[4]'
+Slack : -1.098
+TNS   : -325.595
+
+Type  : Slow 1200mV 0C Model Setup 'p0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.994
+TNS   : -8.716
+
+Type  : Slow 1200mV 0C Model Setup 'mod_dac:p3|dac_clk_src:m0|nck'
+Slack : -0.971
+TNS   : -3.693
+
+Type  : Slow 1200mV 0C Model Setup 'mod_dac:p5|dac_clk_src:m0|nck'
+Slack : -0.926
+TNS   : -3.476
+
+Type  : Slow 1200mV 0C Model Setup 'mod_dac:p4|dac_clk_src:m0|nck'
+Slack : -0.922
+TNS   : -3.467
+
+Type  : Slow 1200mV 0C Model Setup 'adc_module:p7|adc_driver:a1|adccs'
+Slack : -0.824
+TNS   : -2.470
+
+Type  : Slow 1200mV 0C Model Setup 'wr'
+Slack : -0.676
+TNS   : -4.795
+
+Type  : Slow 1200mV 0C Model Setup 'p0|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 95.898
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'p0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.351
+TNS   : -0.351
+
+Type  : Slow 1200mV 0C Model Hold 'p0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.328
+TNS   : -1.916
+
+Type  : Slow 1200mV 0C Model Hold 'adc_module:p7|adc_driver:a1|adccs'
+Slack : 0.009
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mod_dac:p3|dac_clk_src:m0|nck'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mod_dac:p4|dac_clk_src:m0|nck'
+Slack : 0.195
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mod_dac:p5|dac_clk_src:m0|nck'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'adc_module:p7|adc_clk_div:a9|cnt[4]'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clkdiv:p1|cd'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'p0|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'wr'
+Slack : 0.472
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mod_dac:p5|dac_clk_src:m0|pck'
+Slack : 0.751
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mod_dac:p3|dac_clk_src:m0|pck'
+Slack : 0.879
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mod_dac:p4|dac_clk_src:m0|pck'
+Slack : 0.903
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'wr'
+Slack : -3.000
+TNS   : -95.194
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'adc_module:p7|adc_clk_div:a9|cnt[4]'
+Slack : -1.487
+TNS   : -2284.032
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clkdiv:p1|cd'
+Slack : -1.487
+TNS   : -84.759
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'adc_module:p7|adc_driver:a1|adccs'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mod_dac:p3|dac_clk_src:m0|nck'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mod_dac:p4|dac_clk_src:m0|nck'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mod_dac:p5|dac_clk_src:m0|nck'
+Slack : -1.487
+TNS   : -7.435
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mod_dac:p3|dac_clk_src:m0|pck'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mod_dac:p4|dac_clk_src:m0|pck'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mod_dac:p5|dac_clk_src:m0|pck'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'adc_module:p7|adc_driver:a1|adcrd'
+Slack : 0.078
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'p0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.271
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'p0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.716
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 19.943
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'p0|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 49.717
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'p0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -4.008
+TNS   : -81.747
+
+Type  : Fast 1200mV 0C Model Setup 'mod_dac:p5|dac_clk_src:m0|pck'
+Slack : -1.359
+TNS   : -1.359
+
+Type  : Fast 1200mV 0C Model Setup 'mod_dac:p4|dac_clk_src:m0|pck'
+Slack : -1.326
+TNS   : -1.326
+
+Type  : Fast 1200mV 0C Model Setup 'mod_dac:p3|dac_clk_src:m0|pck'
+Slack : -1.240
+TNS   : -1.240
+
+Type  : Fast 1200mV 0C Model Setup 'clkdiv:p1|cd'
+Slack : -0.267
+TNS   : -7.924
+
+Type  : Fast 1200mV 0C Model Setup 'p0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.157
+TNS   : -1.023
+
+Type  : Fast 1200mV 0C Model Setup 'mod_dac:p3|dac_clk_src:m0|nck'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'adc_module:p7|adc_clk_div:a9|cnt[4]'
+Slack : 0.066
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'mod_dac:p5|dac_clk_src:m0|nck'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'mod_dac:p4|dac_clk_src:m0|nck'
+Slack : 0.083
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'adc_module:p7|adc_driver:a1|adccs'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'wr'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'p0|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 98.127
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mod_dac:p3|dac_clk_src:m0|nck'
+Slack : -0.203
+TNS   : -1.015
+
+Type  : Fast 1200mV 0C Model Hold 'mod_dac:p4|dac_clk_src:m0|nck'
+Slack : -0.202
+TNS   : -1.010
+
+Type  : Fast 1200mV 0C Model Hold 'mod_dac:p5|dac_clk_src:m0|nck'
+Slack : -0.195
+TNS   : -0.975
+
+Type  : Fast 1200mV 0C Model Hold 'adc_module:p7|adc_driver:a1|adccs'
+Slack : -0.062
+TNS   : -0.062
+
+Type  : Fast 1200mV 0C Model Hold 'p0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.056
+TNS   : -0.056
+
+Type  : Fast 1200mV 0C Model Hold 'p0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.045
+TNS   : -0.214
+
+Type  : Fast 1200mV 0C Model Hold 'clkdiv:p1|cd'
+Slack : 0.121
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'adc_module:p7|adc_clk_div:a9|cnt[4]'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'p0|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'wr'
+Slack : 0.202
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mod_dac:p5|dac_clk_src:m0|pck'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mod_dac:p3|dac_clk_src:m0|pck'
+Slack : 0.413
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mod_dac:p4|dac_clk_src:m0|pck'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'wr'
+Slack : -3.000
+TNS   : -72.145
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'adc_module:p7|adc_clk_div:a9|cnt[4]'
+Slack : -1.000
+TNS   : -1536.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clkdiv:p1|cd'
+Slack : -1.000
+TNS   : -57.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'adc_module:p7|adc_driver:a1|adccs'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mod_dac:p3|dac_clk_src:m0|nck'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mod_dac:p4|dac_clk_src:m0|nck'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mod_dac:p5|dac_clk_src:m0|nck'
+Slack : -1.000
+TNS   : -5.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mod_dac:p3|dac_clk_src:m0|pck'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mod_dac:p4|dac_clk_src:m0|pck'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mod_dac:p5|dac_clk_src:m0|pck'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'adc_module:p7|adc_driver:a1|adcrd'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'p0|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 5.353
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'p0|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 9.796
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 19.594
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'p0|altpll_component|auto_generated|pll1|clk[3]'
+Slack : 49.796
+TNS   : 0.000
+
+------------------------------------------------------------

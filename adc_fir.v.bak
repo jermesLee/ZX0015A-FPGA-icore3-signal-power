@@ -1,0 +1,55 @@
+module adc_fir (fir_clk,rst,adc_indata,adc_outdata);
+
+input wire fir_clk,rst;
+input wire [15:0] adc_indata;
+output wire [15:0] adc_outdata;
+
+reg [15:0] r0,r1,r2,r3,r4,r5,r6,r7,r8,r9,r10,r11,r12,r13,r14,r15,r16,r17,r18,r19,r20,r21,r22,r23,r24,r25,r26,r27,r28,r29,r30,r31;
+always @ (posedge fir_clk,negedge rst)
+	begin
+		if (!rst)
+			begin
+				r0<=16'd0;r1<=16'd0;r2<=16'd0;r3<=16'd0;r4<=16'd0;r5<=16'd0;r6<=16'd0;r7<=16'd0;r8<=16'd0;r9<=16'd0;r10<=16'd0;r11<=16'd0;r12<=16'd0;r13<=16'd0;r14<=16'd0;r15<=16'd0;r16<=16'd0;r17<=16'd0;r18<=16'd0;r19<=16'd0;r20<=16'd0;r21<=16'd0;r22<=16'd0;r23<=16'd0;r24<=16'd0;r25<=16'd0;r26<=16'd0;r27<=16'd0;r28<=16'd0;r29<=16'd0;r30<=16'd0;r31<=16'd0;
+			end 
+		else 
+			begin
+				r0<=adc_indata;
+				r1<=r0;
+				r2<=r1;
+				r3<=r2;
+				r4<=r3;
+				r5<=r4;
+				r6<=r5;
+				r7<=r6;
+				r8<=r7;
+				r9<=r8;
+				r10<=r9;
+				r11<=r10;
+				r12<=r11;
+				r13<=r12;
+				r14<=r13;
+				r15<=r14;
+				r16<=r15;
+				r17<=r16;
+				r18<=r17;
+				r19<=r18;
+				r20<=r19;
+				r21<=r20;
+				r22<=r21;
+				r23<=r22;
+				r24<=r23;
+				r25<=r24;
+				r26<=r25;
+				r27<=r26;
+				r28<=r27;
+				r29<=r28;
+				r30<=r29;
+				r31<=r30;
+			end  
+	end
+
+wire [20:0] rsum;
+assign rsum=r0+r1+r2+r3+r4+r5+r6+r7+r8+r9+r10+r11+r12+r13+r14+r15+r16+r17+r18+r19+r20+r21+r22+r23+r24+r25+r26+r27+r28+r29+r30+r31;
+assign adc_outdata=rsum[20:5];
+
+endmodule  
